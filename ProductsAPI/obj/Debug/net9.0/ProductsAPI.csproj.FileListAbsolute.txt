@@ -176,3 +176,5 @@ C:\Users\amiro\RiderProjects\ProductAPI\ProductsAPI\bin\Debug\net9.0\runtimes\wi
 C:\Users\amiro\RiderProjects\ProductAPI\ProductsAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\amiro\RiderProjects\ProductAPI\ProductsAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\amiro\RiderProjects\ProductAPI\ProductsAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amiro\RiderProjects\ProductAPI\ProductsAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amiro\RiderProjects\ProductAPI\ProductsAPI\obj\Debug\net9.0\ProductsAPI.sourcelink.json

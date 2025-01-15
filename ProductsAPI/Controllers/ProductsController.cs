@@ -29,6 +29,7 @@ namespace productsAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<IActionResult> GetProduct(int id)
         {
             var product = await _repository.GetProductByIdAsync(id);

@@ -39,11 +39,7 @@ public class UserRepository : IUserRepository
         return await _userManager.CheckPasswordAsync(user, password);
     }
 
-    public string GenerateJWT(AppUser user)
-    {
-        throw new NotImplementedException();
-    }
-
+   
     // public string GenerateJWT(AppUser user)
     // {
     //     var tokenHandler = new JwtSecurityTokenHandler();

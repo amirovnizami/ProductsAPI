@@ -14,10 +14,12 @@ namespace productsAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUserRepository _repository;
+        private readonly ITokenService _tokenService;
 
-        public UsersController(IUserRepository repository)
+        public UsersController(IUserRepository repository,ITokenService tokenService)
         {
             _repository = repository;
+            _tokenService = tokenService;
         }
 
         [HttpPost("register")]
@@ -57,7 +59,7 @@ namespace productsAPI.Controllers
                 return Unauthorized();
             }
 
-            return Ok(new { token = _repository.GenerateJWT(user) });
+            return Ok(new { token = _tokenService.GenerateJWT(user) });
         }
     }
 }
