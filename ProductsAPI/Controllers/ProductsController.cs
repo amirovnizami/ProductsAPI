@@ -1,10 +1,6 @@
 ﻿using API.Domain.Entities;
-using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Abstractions;
-using Microsoft.EntityFrameworkCore;
 using ProductsAPI.Application.DTO;
 using ProductsAPI.Application.Interfaces;
 
